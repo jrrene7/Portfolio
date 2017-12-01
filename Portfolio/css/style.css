@@ -189,12 +189,19 @@ h3.lead.contact {
 }
 
 .social i {
-  font-size: 450%;
+  font-size: 400%;
   margin: 1%;
-  padding: 5% 5% 5% 5%;
+  padding: 5% 5% 5% 4%;
   color: red;
   border: 3px solid #f5f5f5;
   border-radius: 4px;
+}
+
+@media (max-width: 750px) {
+  .social li {
+    font-size: 200%;
+  }
+
 }
 
 .social i:hover {
