@@ -19,7 +19,9 @@ const Hero = (props) => (
         Full-Stack Developer adept at building scalable solutions to challenging
         technical problems utilizing a user-centered approach.
       </SectionText>
-      <Button onClick={() => (window.location = "http://google.com")}>
+      <Button
+        onClick={() => (window.location = "mailto:jeanrobertrenejr@gmail.com")}
+      >
         Learn More
       </Button>
     </LeftSection>

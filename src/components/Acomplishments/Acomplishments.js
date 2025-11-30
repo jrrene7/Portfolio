@@ -10,6 +10,7 @@ import { Box, Boxes, BoxNum, BoxText } from "./AcomplishmentsStyles";
 const data = [
   { number: "Security+", text: "CompTia Certification" },
   { number: "Web Development", text: "General Assembly" },
+  { number: "Deployment Specialist", text: "Google Chrome" },
   // { number: 1900, text: "Github Followers" },
   // { number: 5000, text: "Github Stars" },
 ];

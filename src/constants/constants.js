@@ -22,17 +22,17 @@ export const projects = [
   {
     title: "LinkedIn",
     description:
-      "This is a social media application using Firebase that allows users to post messages to a live feed. In this project, I wanted to showcase my font-end skills by recreating somewhat of a complex UI while also implementing authentication through Redux.",
+      "This is a social media application using Firebase that allows users to post messages to a live feed. In this project, wanted to showcase my font-end skills by recreating somewhat of a complex UI while also implementing authentication through Redux.",
     image: "/images/LinkedIn.jpg",
     tags: ["React", "Redux", "Tailwind CSS", "Firebase"],
     source: "https://github.com/jrrene7/linked-in-clone",
-    visit: "https://google.com",
+    visit: "https://linkedin-clone-bff1e.web.app/",
     id: 2,
   },
   {
     title: "Google-Fu",
     description:
-      "This is a Search Engine using Google Search API, I wanted to mostly showcase my front-end capabilities by making the UI responsive while using Tailwind CSS.",
+      "This is a Search Engine using Google Search API, wanted to mostly showcase my front-end capabilities by making the UI responsive while using Tailwind CSS.",
     image: "/images/Google-fu.jpg",
     tags: ["React", "Tailwind CSS", "Google Search API", "Vercel"],
     source: "https://github.com/jrrene7/Google-fu",
@@ -47,7 +47,7 @@ export const TimeLineData = [
     year: 2014,
     text: "Worked at Willdan Energy Solutions as an Electrical/Energy Efficiency Auditor",
   },
-  { year: 2016, text: "Started my coding journey" },
+  { year: 2016, text: "Started coding journey" },
   { year: 2017, text: "Web Development at General Assembly NYC" },
   {
     year: 2018,
@@ -64,5 +64,13 @@ export const TimeLineData = [
   {
     year: 2021,
     text: "Contracted to work as a Software Engineer I at Tinker Growth",
+  },
+  {
+    year: 2021,
+    text: "Contracted work at DUB as a Full-Stack Developer",
+  },
+  {
+    year: "2022 - Present",
+    text: "Hired as a Software Engineer Lead at Accenture",
   },
 ];
