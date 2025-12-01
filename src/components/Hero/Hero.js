@@ -16,8 +16,8 @@ const Hero = (props) => (
         My Portfolio
       </SectionTitle>
       <SectionText>
-        Full-Stack Developer adept at building scalable solutions to challenging
-        technical problems utilizing a user-centered approach.
+        Hi, I’m J-R — a Full-Stack Software Engineer who loves solving tough
+        problems and building meaningful products.
       </SectionText>
       <Button
         onClick={() => (window.location = "mailto:jeanrobertrenejr@gmail.com")}
