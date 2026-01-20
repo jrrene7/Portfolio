@@ -1,14 +1,23 @@
 export const projects = [
   {
+    title: "Smart-Detect",
+    description:
+      "a photo detection application using machine learning to detect human faces in images.",
+    image: "/images/smart-detect.png",
+    tags: ["React", "Node.js", "Express", "Clarifai API"],
+    source: "https://github.com/jrrene7/smart-detect",
+    visit: "",
+    id: 0,
+  },
+  {
     title: "Robofriends",
     description:
       "React application using Redux, React Router, and Styled Components.",
     image: "/images/robofriends.png",
     tags: ["React", "Redux", "JavaScript", "CSS"],
-    source:
-      "https://github.com/jrrene7/robofriends",
+    source: "https://github.com/jrrene7/robofriends",
     visit: "https://jrrene7.github.io/robofriends/",
-    id: 0,
+    id: 1,
   },
   {
     title: "Memories",
@@ -18,7 +27,7 @@ export const projects = [
     tags: ["Mongo", "Express", "React", "Node"],
     source: "https://github.com/jrrene7/memories",
     visit: "https://memories5000.netlify.app/",
-    id: 1,
+    id: 2,
   },
   {
     title: "Covid-19 Tracker",
@@ -28,7 +37,7 @@ export const projects = [
     tags: ["Vue", "JavaScript"],
     source: "https://github.com/jrrene7/covid19-tracker",
     visit: "https://covid19-tracker-nine-indol.vercel.app/",
-    id: 2,
+    id: 3,
   },
   {
     title: "LinkedIn",
@@ -38,7 +47,7 @@ export const projects = [
     tags: ["React", "Redux", "Tailwind CSS", "Firebase"],
     source: "https://github.com/jrrene7/linked-in-clone",
     visit: "https://linkedin-clone-bff1e.web.app/",
-    id: 3,
+    id: 4,
   },
   {
     title: "Google-Fu",
@@ -48,7 +57,7 @@ export const projects = [
     tags: ["React", "Tailwind CSS", "Google Search API", "Vercel"],
     source: "https://github.com/jrrene7/Google-fu",
     visit: "https://google-fu.vercel.app/",
-    id: 4,
+    id: 5,
   },
 ];
 
