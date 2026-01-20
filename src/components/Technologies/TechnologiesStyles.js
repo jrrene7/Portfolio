@@ -30,12 +30,13 @@ export const MainImage = styled.img`
 export const List = styled.ul`
   list-style-type: none;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 32px;
   margin: 3rem 0;
   
   @media ${props => props.theme.breakpoints.lg}{
     margin: 64px 0;
+    gap: 28px;
   }
 
   @media ${props => props.theme.breakpoints.md}{
@@ -129,5 +130,33 @@ export const ListIcon = styled.img`
     width: 32px;
     height: 32px;
     margin-bottom: 0px;
+  }
+`
+
+export const HighlightRow = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 12px 0 32px;
+
+  @media ${props => props.theme.breakpoints.sm}{
+    margin: 8px 0 24px;
+  }
+`
+
+export const HighlightBadge = styled.span`
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.04);
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+
+  @media ${props => props.theme.breakpoints.sm}{
+    font-size: 13px;
   }
 `

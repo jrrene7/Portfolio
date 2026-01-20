@@ -8,7 +8,8 @@ import {
 import { Box, Boxes, BoxNum, BoxText } from "./AcomplishmentsStyles";
 
 const data = [
-  { number: "Security+", text: "CompTia Certification" },
+  { number: "AWS Cloud Practitioner", text: "Amazon Web Services" },
+  { number: "Security+", text: "CompTia Certification (expired)" },
   { number: "Web Development", text: "General Assembly" },
   { number: "Deployment Specialist", text: "Google Chrome" },
   // { number: 1900, text: "Github Followers" },
