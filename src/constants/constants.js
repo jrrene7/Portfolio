@@ -2,11 +2,11 @@ export const projects = [
   {
     title: "Smart-Detect",
     description:
-      "a photo detection application using machine learning to detect human faces in images.",
+      "a facial recognition application using machine learning to detect human faces in images.",
     image: "/images/smart-detect.png",
     tags: ["React", "Node.js", "Express", "Clarifai API"],
     source: "https://github.com/jrrene7/smart-detect",
-    visit: "",
+    visit: "https://github.com/jrrene7/smart-detect",
     id: 0,
   },
   {
