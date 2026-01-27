@@ -4,9 +4,9 @@ export const projects = [
     description:
       "a facial recognition application using machine learning to detect human faces in images.",
     image: "/images/smart-detect.png",
-    tags: ["React", "Node.js", "Express", "Clarifai API"],
+    tags: ["React", "Node.js", "Express", "Clarifai API", "AI Model", "Face Detection"],
     source: "https://github.com/jrrene7/smart-detect",
-    visit: "https://github.com/jrrene7/smart-detect",
+    visit: "https://smart-detect-ui.vercel.app/",
     id: 0,
   },
   {
@@ -91,6 +91,6 @@ export const TimeLineData = [
   },
   {
     year: "2022 - Present",
-    text: "Hired as a Software Engineer Lead at Accenture",
+    text: "Software Engineer Lead at Accenture",
   },
 ];
